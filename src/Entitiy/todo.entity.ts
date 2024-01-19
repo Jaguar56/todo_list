@@ -21,6 +21,6 @@ export class TodoEntity {
 
 export enum TodoStatus {
   OPEN = 'OPEN',
-  VIP = 'VIP',
+  WIP = 'WIP',
   COMPLETED = 'COMPLETED',
 }
