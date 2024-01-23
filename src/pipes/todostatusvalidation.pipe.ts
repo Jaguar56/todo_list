@@ -10,7 +10,7 @@ import { TodoStatus } from 'src/Entitiy/todo.entity';
 export class TodoStatusValidationPipe implements PipeTransform {
   readonly allowedStatus = [
     TodoStatus.OPEN,
-    TodoStatus.VIP,
+    TodoStatus.WIP,
     TodoStatus.COMPLETED,
   ];
   transform(value: any, metadata: ArgumentMetadata): any {
